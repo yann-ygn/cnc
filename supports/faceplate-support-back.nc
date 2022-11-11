@@ -1,6 +1,6 @@
 (Exported by FreeCAD)
 (Post Processor: grbl_post)
-(Output Time:2022-10-08 16:16:52.139408)
+(Output Time:2022-11-11 16:41:08.254233)
 (Begin preamble)
 G17 G90
 G21
@@ -14,6 +14,7 @@ G0 Z5.000
 (endmill-3_175mm001)
 (Begin toolchange)
 ( M6 T3 )
+M3 S10000
 (Finish operation: endmill-3_175mm001)
 (Begin operation: Profile)
 (Path: Profile)
