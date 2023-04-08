@@ -1,6 +1,6 @@
 (Exported by FreeCAD)
 (Post Processor: grbl_post)
-(Output Time:2023-02-05 16:54:10.797811)
+(Output Time:2023-04-08 11:23:18.925953)
 (Begin preamble)
 G17 G90
 G21
@@ -18,7 +18,7 @@ M3 S10000
 (Finish operation: endmill-2mm001)
 (Begin operation: HOLES001)
 (Path: HOLES001)
-(Profile)
+(HOLES001)
 (Compensated Tool Path. Diameter: 2.0)
 G0 Z5.000
 G0 X14.620 Y-12.371
