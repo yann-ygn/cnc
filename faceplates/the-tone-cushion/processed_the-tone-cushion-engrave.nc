@@ -14,7 +14,27 @@ G0 Z5.000
 (ballend-012mm001)
 (Begin toolchange)
 ( M6 T5 )
+(Post processing added : Ramp up the spindle speed)
+M3 S100
+G4 P.25
+M3 S200
+G4 P.25
+M3 S400
+G4 P.25
+M3 S600
+G4 P.25
+M3 S800
+G4 P.25
+M3 S1000
+G4 P.25
+M3 S2000
+G4 P.25
+M3 S4000
+G4 P.25
+M3 S6000
+G4 P.25
 M3 S10000
+(End post processing)
 (Finish operation: ballend-012mm001)
 (Begin operation: ENGRAVE 0.12MM)
 (Path: ENGRAVE 0.12MM)
@@ -159,7 +179,27 @@ G0 Z0.500
 (ballend-015mm003)
 (Begin toolchange)
 ( M6 T4 )
+(Post processing added : Ramp up the spindle speed)
+M3 S100
+G4 P.25
+M3 S200
+G4 P.25
+M3 S400
+G4 P.25
+M3 S600
+G4 P.25
+M3 S800
+G4 P.25
+M3 S1000
+G4 P.25
+M3 S2000
+G4 P.25
+M3 S4000
+G4 P.25
+M3 S6000
+G4 P.25
 M3 S10000
+(End post processing)
 (Finish operation: ballend-015mm003)
 (Begin operation: ENGRAVE 0.15MM)
 (Path: ENGRAVE 0.15MM)
@@ -320,7 +360,27 @@ G0 Z0.500
 (ballend-020mm001)
 (Begin toolchange)
 ( M6 T3 )
+(Post processing added : Ramp up the spindle speed)
+M3 S100
+G4 P.25
+M3 S200
+G4 P.25
+M3 S400
+G4 P.25
+M3 S600
+G4 P.25
+M3 S800
+G4 P.25
+M3 S1000
+G4 P.25
+M3 S2000
+G4 P.25
+M3 S4000
+G4 P.25
+M3 S6000
+G4 P.25
 M3 S10000
+(End post processing)
 (Finish operation: ballend-020mm001)
 (Begin operation: ENGRAVE 0.20MM)
 (Path: ENGRAVE 0.20MM)
@@ -5514,7 +5574,27 @@ G0 Z0.500
 (ballend-025mm003)
 (Begin toolchange)
 ( M6 T6 )
+(Post processing added : Ramp up the spindle speed)
+M3 S100
+G4 P.25
+M3 S200
+G4 P.25
+M3 S400
+G4 P.25
+M3 S600
+G4 P.25
+M3 S800
+G4 P.25
+M3 S1000
+G4 P.25
+M3 S2000
+G4 P.25
+M3 S4000
+G4 P.25
+M3 S6000
+G4 P.25
 M3 S10000
+(End post processing)
 (Finish operation: ballend-025mm003)
 (Begin operation: ENGRAVE 0.25MM)
 (Path: ENGRAVE 0.25MM)
