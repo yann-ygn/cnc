@@ -1,6 +1,6 @@
 (Exported by FreeCAD)
 (Post Processor: grbl_post)
-(Output Time:2023-02-02 22:19:48.385925)
+(Output Time:2023-04-30 22:08:00.342259)
 (Begin preamble)
 G17 G90
 G21
@@ -90,7 +90,7 @@ G0 Z5.000
 (Finish operation: HOLES001)
 (Begin operation: CONTOUR)
 (Path: CONTOUR)
-(Profile001)
+(CONTOUR)
 (Compensated Tool Path. Diameter: 2.0)
 G0 Z5.000
 G0 X61.534 Y-0.465
